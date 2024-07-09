@@ -13,4 +13,4 @@ Luckily for us, VAC does this linearly and not randomly, so we get a perfectly s
 
 Congrats you now turned into Mr. super mega hack
 
-![Alt text](https://gifyu.com/image/Sth8w)
+![](https://gifyu.com/image/Sth8w)
