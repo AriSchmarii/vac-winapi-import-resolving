@@ -11,6 +11,4 @@ Luckily for us, VAC does this linearly and not randomly, so we get a perfectly s
 3. press Y (shortcut for "Set item type")
 4. enter vac_winapi* winapi (only the data type really matters here)
 
-Congrats you now turned into Mr. super mega hack
-
 ![](https://github.com/AriSchmarii/vac-winapi-import-resolving/blob/main/script_example.gif)
