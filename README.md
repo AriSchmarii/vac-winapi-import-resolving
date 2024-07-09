@@ -1,4 +1,4 @@
-# "How does VAC3 use the WinApi if I can't see any in the .idata segment?????"
+# "How does VAC3 use the WinApi if I can't see any imports in the .idata segment?????"
 Every VAC3 module (on Windows) uses the much loved WinApi. To make it harder for a reverse engineer, they get all their imports by calling GetProcAddress and then store all function pointers in an array.
 This array can be found by searching for ```8B 0D ? ? ? ? 68 ? ? ? ? 57``` in a x64 version of a VAC3 module.
 
@@ -7,8 +7,10 @@ Luckily for us, VAC does this linearly and not randomly, so we get a perfectly s
 
 # How to use the script?
 1. (In IDA) go to File -> Script file and load resolve_imports.py
-2. find the array by scanning for 8B 0D ? ? ? ? 68 ? ? ? ? 57
+2. find the array by scanning for ```8B 0D ? ? ? ? 68 ? ? ? ?``` 57
 3. press Y (shortcut for "Set item type")
-4. enter vac_winapi* g_imports (only the data type really matters here)
+4. enter vac_winapi* winapi (only the data type really matters here)
 
 Congrats you now turned into Mr. super mega hack
+
+![Alt text](https://gifyu.com/image/Sth8w)
