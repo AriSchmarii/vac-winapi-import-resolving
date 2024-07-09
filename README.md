@@ -13,4 +13,4 @@ Luckily for us, VAC does this linearly and not randomly, so we get a perfectly s
 
 Congrats you now turned into Mr. super mega hack
 
-![]([https://gifyu.com/image/Sth8w](https://github.com/AriSchmarii/vac-winapi-import-resolving/blob/main/script_example.gif))
+![](https://github.com/AriSchmarii/vac-winapi-import-resolving/blob/main/script_example.gif)
